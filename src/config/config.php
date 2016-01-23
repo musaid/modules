@@ -24,7 +24,7 @@ return [
 
     'stubs' => [
         'enabled' => false,
-        'path' => base_path().'/vendor/pingpong/modules/src/Pingpong/Modules/Commands/stubs',
+        'path' => base_path().'/vendor/musaid/modules/src/Pingpong/Modules/Commands/stubs',
         'files' => [
             'start' => 'start.php',
             'routes' => 'Http/routes.php',
@@ -137,10 +137,10 @@ return [
     */
 
     'composer' => [
-        'vendor' => 'pingpong-modules',
+        'vendor' => 'musaid-modules',
         'author' => [
-            'name' => 'Pingpong Labs',
-            'email' => 'pingpong.labs@gmail.com',
+            'name' => 'musaid',
+            'email' => 'musaid@live.com',
         ],
     ],
     /*
@@ -153,7 +153,7 @@ return [
     */
     'cache' => [
         'enabled' => false,
-        'key' => 'pingpong-modules',
+        'key' => 'musaid-modules',
         'lifetime' => 60,
     ],
 

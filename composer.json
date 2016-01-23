@@ -1,15 +1,19 @@
 {
-  "name": "pingpong/modules",
+  "name": "musaid/modules",
   "description": "Laravel Modules",
   "keywords": [
     "modules",
     "laravel",
-    "pingpong",
+    "musaid",
     "hmvc",
     "module"
   ],
   "license": "BSD-3-Clause",
   "authors": [
+    {
+      "name": "musaid",
+      "email": "musaid@live.com"
+    },
     {
       "name": "Pingpong Labs",
       "email": "pingpong.labs@gmail.com"
