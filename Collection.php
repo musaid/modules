@@ -1,6 +1,6 @@
 <?php
 
-namespace Pingpong\Modules;
+namespace Musaid\Modules;
 
 use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Support\Collection as BaseCollection;

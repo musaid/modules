@@ -1,6 +1,6 @@
 <?php
 
-namespace Pingpong\Modules\Traits;
+namespace Musaid\Modules\Traits;
 
 trait ModuleCommandTrait
 {

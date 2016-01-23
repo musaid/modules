@@ -1,11 +1,11 @@
 <?php
 
-namespace Pingpong\Modules\Commands;
+namespace Musaid\Modules\Commands;
 
 use Illuminate\Console\Command;
-use Pingpong\Modules\Module;
-use Pingpong\Modules\Publishing\AssetPublisher;
-use Pingpong\Modules\Publishing\LangPublisher;
+use Musaid\Modules\Module;
+use Musaid\Modules\Publishing\AssetPublisher;
+use Musaid\Modules\Publishing\LangPublisher;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputOption;
 

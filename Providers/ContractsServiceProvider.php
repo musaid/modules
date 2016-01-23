@@ -1,6 +1,6 @@
 <?php
 
-namespace Pingpong\Modules\Providers;
+namespace Musaid\Modules\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -12,8 +12,8 @@ class ContractsServiceProvider extends ServiceProvider
     public function register()
     {
         $this->app->bind(
-            'Pingpong\Modules\Contracts\RepositoryInterface',
-            'Pingpong\Modules\Repository'
+            'Musaid\Modules\Contracts\RepositoryInterface',
+            'Musaid\Modules\Repository'
         );
     }
 }

@@ -1,9 +1,9 @@
 <?php
 
-namespace Pingpong\Modules\Commands;
+namespace Musaid\Modules\Commands;
 
 use Illuminate\Console\Command;
-use Pingpong\Modules\Publishing\MigrationPublisher;
+use Musaid\Modules\Publishing\MigrationPublisher;
 use Symfony\Component\Console\Input\InputArgument;
 
 class PublishMigrationCommand extends Command
@@ -45,7 +45,7 @@ class PublishMigrationCommand extends Command
     /**
      * Publish migration for the specified module.
      *
-     * @param \Pingpong\Modules\Module $module
+     * @param \Musaid\Modules\Module $module
      */
     public function publish($module)
     {

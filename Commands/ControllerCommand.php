@@ -1,9 +1,9 @@
 <?php
 
-namespace Pingpong\Modules\Commands;
+namespace Musaid\Modules\Commands;
 
 use Pingpong\Support\Stub;
-use Pingpong\Modules\Traits\ModuleCommandTrait;
+use Musaid\Modules\Traits\ModuleCommandTrait;
 use Symfony\Component\Console\Input\InputArgument;
 
 class ControllerCommand extends GeneratorCommand

@@ -1,14 +1,14 @@
 <?php
 
-namespace Pingpong\Modules;
+namespace Musaid\Modules;
 
 use Countable;
 use Illuminate\Foundation\Application;
 use Illuminate\Support\Str;
-use Pingpong\Modules\Contracts\RepositoryInterface;
-use Pingpong\Modules\Exceptions\ModuleNotFoundException;
-use Pingpong\Modules\Process\Installer;
-use Pingpong\Modules\Process\Updater;
+use Musaid\Modules\Contracts\RepositoryInterface;
+use Musaid\Modules\Exceptions\ModuleNotFoundException;
+use Musaid\Modules\Process\Installer;
+use Musaid\Modules\Process\Updater;
 
 class Repository implements RepositoryInterface, Countable
 {

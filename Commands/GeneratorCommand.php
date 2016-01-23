@@ -1,10 +1,10 @@
 <?php
 
-namespace Pingpong\Modules\Commands;
+namespace Musaid\Modules\Commands;
 
 use Illuminate\Console\Command;
-use Pingpong\Modules\Generators\FileAlreadyExistException;
-use Pingpong\Modules\Generators\FileGenerator;
+use Musaid\Modules\Generators\FileAlreadyExistException;
+use Musaid\Modules\Generators\FileGenerator;
 
 abstract class GeneratorCommand extends Command
 {
@@ -74,7 +74,7 @@ abstract class GeneratorCommand extends Command
     /**
      * Get class namespace.
      *
-     * @param \Pingpong\Module\Module $module
+     * @param \Musaid\Module\Module $module
      *
      * @return string
      */

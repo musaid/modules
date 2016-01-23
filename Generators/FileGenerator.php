@@ -1,6 +1,6 @@
 <?php
 
-namespace Pingpong\Modules\Generators;
+namespace Musaid\Modules\Generators;
 
 use Illuminate\Filesystem\Filesystem;
 

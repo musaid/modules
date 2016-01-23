@@ -1,6 +1,6 @@
 <?php
 
-namespace Pingpong\Modules\Facades;
+namespace Musaid\Modules\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

@@ -1,13 +1,13 @@
 <?php
 
-namespace Pingpong\Modules\Generators;
+namespace Musaid\Modules\Generators;
 
 use Illuminate\Config\Repository as Config;
 use Illuminate\Console\Command as Console;
 use Illuminate\Filesystem\Filesystem;
 use Illuminate\Support\Str;
 use Pingpong\Support\Stub;
-use Pingpong\Modules\Repository;
+use Musaid\Modules\Repository;
 
 class ModuleGenerator extends Generator
 {
@@ -40,7 +40,7 @@ class ModuleGenerator extends Generator
     protected $console;
 
     /**
-     * The pingpong module instance.
+     * The musaid module instance.
      *
      * @var Module
      */
@@ -180,7 +180,7 @@ class ModuleGenerator extends Generator
     }
 
     /**
-     * Get the pingpong module instance.
+     * Get the musaid module instance.
      *
      * @return Module
      */
@@ -190,7 +190,7 @@ class ModuleGenerator extends Generator
     }
 
     /**
-     * Set the pingpong module instance.
+     * Set the musaid module instance.
      *
      * @param mixed $module
      *

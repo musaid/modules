@@ -1,6 +1,6 @@
 <?php namespace $CLASS_NAMESPACE$;
 
-use Pingpong\Modules\Routing\Controller;
+use Musaid\Modules\Routing\Controller;
 
 class $CLASS$ extends Controller {
 	

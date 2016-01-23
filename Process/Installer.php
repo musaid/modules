@@ -1,10 +1,10 @@
 <?php
 
-namespace Pingpong\Modules\Process;
+namespace Musaid\Modules\Process;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Str;
-use Pingpong\Modules\Repository;
+use Musaid\Modules\Repository;
 use Symfony\Component\Process\Process;
 
 class Installer
@@ -26,7 +26,7 @@ class Installer
     /**
      * The module repository instance.
      *
-     * @var \Pingpong\Modules\Repository
+     * @var \Musaid\Modules\Repository
      */
     protected $repository;
 
@@ -84,7 +84,7 @@ class Installer
     /**
      * Set the module repository instance.
      *
-     * @param \Pingpong\Modules\Repository $repository
+     * @param \Musaid\Modules\Repository $repository
      *
      * @return $this
      */

@@ -1,23 +1,23 @@
 <?php
 
-namespace Pingpong\Modules\Process;
+namespace Musaid\Modules\Process;
 
-use Pingpong\Modules\Contracts\RunableInterface;
-use Pingpong\Modules\Repository;
+use Musaid\Modules\Contracts\RunableInterface;
+use Musaid\Modules\Repository;
 
 class Runner implements RunableInterface
 {
     /**
      * The module instance.
      *
-     * @var \Pingpong\Modules\Repository
+     * @var \Musaid\Modules\Repository
      */
     protected $module;
 
     /**
      * The constructor.
      *
-     * @param \Pingpong\Modules\Repository $module
+     * @param \Musaid\Modules\Repository $module
      */
     public function __construct(Repository $module)
     {

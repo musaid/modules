@@ -1,15 +1,15 @@
 <?php
 
-namespace Pingpong\Modules\Migrations;
+namespace Musaid\Modules\Migrations;
 
-use Pingpong\Modules\Module;
+use Musaid\Modules\Module;
 
 class Migrator
 {
     /**
-     * Pingpong Module instance.
+     * Musaid Module instance.
      *
-     * @var \Pingpong\Modules\Module
+     * @var \Musaid\Modules\Module
      */
     protected $module;
 
@@ -23,7 +23,7 @@ class Migrator
     /**
      * Create new instance.
      *
-     * @param \Pingpong\Modules\Module $module
+     * @param \Musaid\Modules\Module $module
      */
     public function __construct(Module $module)
     {

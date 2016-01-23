@@ -1,6 +1,6 @@
 <?php
 
-namespace Pingpong\Modules\Commands;
+namespace Musaid\Modules\Commands;
 
 use Illuminate\Console\Command;
 use Symfony\Component\Console\Input\InputOption;

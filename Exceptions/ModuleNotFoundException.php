@@ -1,6 +1,6 @@
 <?php
 
-namespace Pingpong\Modules\Exceptions;
+namespace Musaid\Modules\Exceptions;
 
 class ModuleNotFoundException extends \Exception
 {

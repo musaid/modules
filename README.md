@@ -1,4 +1,9 @@
 Laravel 5 Modules
 ==============
 
-Official documentation is located [here](http://sky.pingpong-labs.com/docs/2.0/modules)
+Changes:
+	- Namespace updated
+
+Credits:
+	- Original Author: [Pingpong Labs](https://github.com/pingpong-labs)
+	- Original Documentation: [Pingpong Labs Sky](http://sky.pingpong-labs.com/docs/2.1/modules)

@@ -32,7 +32,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Pingpong\\Modules\\": ""
+      "Musaid\\Modules\\": ""
     }
   },
   "minimum-stability": "stable"

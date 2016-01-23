@@ -1,6 +1,6 @@
 <?php
 
-namespace Pingpong\Modules\Contracts;
+namespace Musaid\Modules\Contracts;
 
 interface RunableInterface
 {

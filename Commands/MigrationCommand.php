@@ -1,12 +1,12 @@
 <?php
 
-namespace Pingpong\Modules\Commands;
+namespace Musaid\Modules\Commands;
 
 use Illuminate\Support\Str;
 use Pingpong\Generators\Migrations\NameParser;
 use Pingpong\Generators\Migrations\SchemaParser;
 use Pingpong\Support\Stub;
-use Pingpong\Modules\Traits\ModuleCommandTrait;
+use Musaid\Modules\Traits\ModuleCommandTrait;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputOption;
 

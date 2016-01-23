@@ -1,6 +1,6 @@
 <?php
 
-namespace Pingpong\Modules;
+namespace Musaid\Modules;
 
 use Illuminate\Foundation\AliasLoader;
 use Illuminate\Support\ServiceProvider;
@@ -30,7 +30,7 @@ class ModulesServiceProvider extends ServiceProvider
      */
     protected function registerModules()
     {
-        $this->app->register('Pingpong\Modules\Providers\BootstrapServiceProvider');
+        $this->app->register('Musaid\Modules\Providers\BootstrapServiceProvider');
     }
 
     /**
@@ -79,7 +79,7 @@ class ModulesServiceProvider extends ServiceProvider
         $aliases = [
             'HTML' => 'Collective\Html\HtmlFacade',
             'Form' => 'Collective\Html\FormFacade',
-            'Module' => 'Pingpong\Modules\Facades\Module',
+            'Module' => 'Musaid\Modules\Facades\Module',
         ];
 
         AliasLoader::getInstance($aliases)->register();
@@ -113,6 +113,6 @@ class ModulesServiceProvider extends ServiceProvider
     protected function registerProviders()
     {
         $this->app->register(__NAMESPACE__.'\\Providers\\ConsoleServiceProvider');
-        $this->app->register('Pingpong\Modules\Providers\ContractsServiceProvider');
+        $this->app->register('Musaid\Modules\Providers\ContractsServiceProvider');
     }
 }

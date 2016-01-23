@@ -1,6 +1,6 @@
 <?php
 
-namespace Pingpong\Modules\Providers;
+namespace Musaid\Modules\Providers;
 
 use Illuminate\Support\ServiceProvider;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace Pingpong\Modules\Process;
+namespace Musaid\Modules\Process;
 
 class Updater extends Runner
 {
